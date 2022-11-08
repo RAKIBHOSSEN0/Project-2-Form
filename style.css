@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style: none;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.f-img{
+    background: url(Media/1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+.pm{
+    margin:0 5%;
+    padding: 20px 0;
+}
+.container{
+    padding: 0 10px;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    color: #fff;
+}
+.main .header .container .navbar a{
+    margin-right: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.header .container .navbar a:hover{
+    color: yellow;
+}
+
+.btn{
+    background: orange;
+    padding: 11px 15px;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.header .container .nav-src input{
+    padding: 10px;
+    border: 1px solid rgb(34, 0, 255);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: transparent;
+}
+.gap{
+    gap: 20px;
+}
+.m-btn{
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 20px;
+    background: orange;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+}
+.s-form .container .d-form form{
+    background: rgba(0,0,0,.3);
+    padding: 50px;
+    border-radius: 10px;
+}
+.s-form .container .d-form {
+flex: 0 1 500px;
+}
+
+.s-form .container .d-form form h2{
+    background: orange;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding: 8px 0;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.s-form .container .d-form form input{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+.s-form .container .d-form form p{
+    margin: 20px 0 0 0;
+}
+.s-form{
+margin-top: 100px;
+}
+.s-form .container .d-form form .m-btn{
+    width: 100%;
+}
+.s-form .container .t-form h1{
+    color: gold;
+    font-size: 30px;
+}
+.s-form .container .t-form h2{
+    font-size: 25px;
+    color: blue;
+}
+.s-form .container .d-form form p{
+text-align: center;
+}
+footer h1{
+    text-align: center;
+    background: #0000ff;
+    border-radius: 10px;
+    margin-top: 180px;
+    padding: 30px;
+    margin:180px 5% 0 5%;
+}
+
+.icon{
+    text-align: center;
+}
+.bg-blck{
+    background:rgba(0,0,0,.3);;
+}
+.icon{
+    text-align: center;
+    font-size: 25px;
+}
+.icon h3{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.icon a{
+    margin: 0 20px;
+    font-size: 40px;
+}
